@@ -7,8 +7,8 @@ The driver reads the System Power Budget Manager (SPBM) shared memory,
 which is continuously updated by the MediaTek SSPM firmware with live
 power readings in milliwatts and cumulative energy counters in millijoules.
 
-> **Note:** NVIDIA has [officially stated](https://forums.developer.nvidia.com/t/help-needed-how-to-enable-grace-cpu-power-telemetry-on-dgx-spark-gb10/360631)
-> there is "no method to monitor CPU power" on the DGX Spark.
+> [!NOTE]
+> NVIDIA has [officially stated](https://forums.developer.nvidia.com/t/help-needed-how-to-enable-grace-cpu-power-telemetry-on-dgx-spark-gb10/360631) there is "no method to monitor CPU power" on the DGX Spark.
 
 > [!WARNING]
 > This driver is vibe coded. Thanks Claude.
