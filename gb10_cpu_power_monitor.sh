@@ -120,7 +120,8 @@ else
 fi
 
 if [ $# -gt 0 ]; then
-    "$@" &
+    # Redirect program output to /dev/null to avoid interfering with table/CSV
+    "$@" >/dev/null 2>&1 &
     pid=$!
     sample_loop "$pid"
     wait "$pid"
